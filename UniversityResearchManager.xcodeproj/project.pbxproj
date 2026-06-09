@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA010000000000000000000001 /* UniversityResearchManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020000000000000000000001 /* UniversityResearchManagerApp.swift */; };
+		AA010000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020000000000000000000002 /* ContentView.swift */; };
+		AA010000000000000000000003 /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020000000000000000000003 /* University.swift */; };
+		AA010000000000000000000004 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020000000000000000000004 /* SidebarView.swift */; };
+		AA010000000000000000000005 /* UniversityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020000000000000000000005 /* UniversityListView.swift */; };
+		AA010000000000000000000006 /* UniversityRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020000000000000000000006 /* UniversityRowView.swift */; };
+		AA010000000000000000000007 /* UniversityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020000000000000000000007 /* UniversityDetailView.swift */; };
+		AA010000000000000000000008 /* UniversityFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020000000000000000000008 /* UniversityFormView.swift */; };
+		AA010000000000000000000009 /* EmptyStateViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020000000000000000000009 /* EmptyStateViews.swift */; };
+		AA010000000000000000000010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA020000000000000000000010 /* Assets.xcassets */; };
+		AA010000000000000000000011 /* FaviconService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020000000000000000000011 /* FaviconService.swift */; };
+		AA010000000000000000000012 /* WebAnalyzerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020000000000000000000012 /* WebAnalyzerService.swift */; };
+		AA010000000000000000000013 /* UniversityLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020000000000000000000013 /* UniversityLogoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA020000000000000000000000 /* UniversityResearchManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversityResearchManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA020000000000000000000001 /* UniversityResearchManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityResearchManagerApp.swift; sourceTree = "<group>"; };
+		AA020000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA020000000000000000000003 /* University.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = University.swift; sourceTree = "<group>"; };
+		AA020000000000000000000004 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		AA020000000000000000000005 /* UniversityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListView.swift; sourceTree = "<group>"; };
+		AA020000000000000000000006 /* UniversityRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityRowView.swift; sourceTree = "<group>"; };
+		AA020000000000000000000007 /* UniversityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailView.swift; sourceTree = "<group>"; };
+		AA020000000000000000000008 /* UniversityFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityFormView.swift; sourceTree = "<group>"; };
+		AA020000000000000000000009 /* EmptyStateViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateViews.swift; sourceTree = "<group>"; };
+		AA020000000000000000000010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA020000000000000000000011 /* FaviconService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaviconService.swift; sourceTree = "<group>"; };
+		AA020000000000000000000012 /* WebAnalyzerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAnalyzerService.swift; sourceTree = "<group>"; };
+		AA020000000000000000000013 /* UniversityLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityLogoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA030000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA040000000000000000000001 /* MainGroup */ = {
+			isa = PBXGroup;
+			children = (
+				AA040000000000000000000002 /* UniversityResearchManager */,
+				AA040000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA040000000000000000000002 /* UniversityResearchManager */ = {
+			isa = PBXGroup;
+			children = (
+				AA020000000000000000000001 /* UniversityResearchManagerApp.swift */,
+				AA020000000000000000000002 /* ContentView.swift */,
+				AA040000000000000000000004 /* Models */,
+				AA040000000000000000000010 /* Services */,
+				AA040000000000000000000005 /* Views */,
+				AA020000000000000000000010 /* Assets.xcassets */,
+			);
+			path = UniversityResearchManager;
+			sourceTree = "<group>";
+		};
+		AA040000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA020000000000000000000000 /* UniversityResearchManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA040000000000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA020000000000000000000003 /* University.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA040000000000000000000005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA040000000000000000000006 /* Sidebar */,
+				AA040000000000000000000007 /* UniversityList */,
+				AA040000000000000000000008 /* UniversityDetail */,
+				AA040000000000000000000009 /* Shared */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA040000000000000000000006 /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				AA020000000000000000000004 /* SidebarView.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		AA040000000000000000000007 /* UniversityList */ = {
+			isa = PBXGroup;
+			children = (
+				AA020000000000000000000005 /* UniversityListView.swift */,
+				AA020000000000000000000006 /* UniversityRowView.swift */,
+			);
+			path = UniversityList;
+			sourceTree = "<group>";
+		};
+		AA040000000000000000000008 /* UniversityDetail */ = {
+			isa = PBXGroup;
+			children = (
+				AA020000000000000000000007 /* UniversityDetailView.swift */,
+				AA020000000000000000000008 /* UniversityFormView.swift */,
+			);
+			path = UniversityDetail;
+			sourceTree = "<group>";
+		};
+		AA040000000000000000000009 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AA020000000000000000000009 /* EmptyStateViews.swift */,
+				AA020000000000000000000013 /* UniversityLogoView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AA040000000000000000000010 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AA020000000000000000000011 /* FaviconService.swift */,
+				AA020000000000000000000012 /* WebAnalyzerService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA050000000000000000000001 /* UniversityResearchManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA060000000000000000000002 /* Build configuration list for PBXNativeTarget "UniversityResearchManager" */;
+			buildPhases = (
+				AA030000000000000000000002 /* Sources */,
+				AA030000000000000000000003 /* Resources */,
+				AA030000000000000000000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniversityResearchManager;
+			productName = UniversityResearchManager;
+			productReference = AA020000000000000000000000 /* UniversityResearchManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA070000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AA050000000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AA060000000000000000000001 /* Build configuration list for PBXProject "UniversityResearchManager" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA040000000000000000000001;
+			productRefGroup = AA040000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA050000000000000000000001 /* UniversityResearchManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA030000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA010000000000000000000010 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA030000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA010000000000000000000001 /* UniversityResearchManagerApp.swift in Sources */,
+				AA010000000000000000000002 /* ContentView.swift in Sources */,
+				AA010000000000000000000003 /* University.swift in Sources */,
+				AA010000000000000000000004 /* SidebarView.swift in Sources */,
+				AA010000000000000000000005 /* UniversityListView.swift in Sources */,
+				AA010000000000000000000006 /* UniversityRowView.swift in Sources */,
+				AA010000000000000000000007 /* UniversityDetailView.swift in Sources */,
+				AA010000000000000000000008 /* UniversityFormView.swift in Sources */,
+				AA010000000000000000000009 /* EmptyStateViews.swift in Sources */,
+				AA010000000000000000000011 /* FaviconService.swift in Sources */,
+				AA010000000000000000000012 /* WebAnalyzerService.swift in Sources */,
+				AA010000000000000000000013 /* UniversityLogoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA060000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA060000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AA060000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Üni Başvurum";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.berat.UniversityResearchManager";
+				PRODUCT_MODULE_NAME = UniversityResearchManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA060000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Üni Başvurum";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.berat.UniversityResearchManager";
+				PRODUCT_MODULE_NAME = UniversityResearchManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA060000000000000000000001 /* Build configuration list for PBXProject "UniversityResearchManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA060000000000000000000003 /* Debug */,
+				AA060000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA060000000000000000000002 /* Build configuration list for PBXNativeTarget "UniversityResearchManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA060000000000000000000005 /* Debug */,
+				AA060000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = AA070000000000000000000001 /* Project object */;
+}
