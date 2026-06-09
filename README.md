@@ -23,6 +23,10 @@ Kullanıcılar araştırdıkları üniversiteleri, bölümleri, başvuru bağlan
 * SwiftData
 * macOS
 
+## Ekran Görüntüsü
+
+![Üni Başvurum](screenshots/main-screen.png)
+
 ## Amaç
 
 Bu proje, üniversite araştırma sürecinde farklı kaynaklardan toplanan bilgileri tek bir yerde organize etmek amacıyla geliştirilmiştir.
