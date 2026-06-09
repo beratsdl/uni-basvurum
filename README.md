@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/logo.png" width="180">
+</p>
 # Üni Başvurum
 
 Üni Başvurum, üniversite araştırma sürecini daha düzenli yönetmek için geliştirilmiş bir macOS uygulamasıdır.
